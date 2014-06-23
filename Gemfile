@@ -43,3 +43,16 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bundler'
+
+group :development do
+  gem 'better_errors'
+end
+
+gem 'binding_of_caller'
+gem 'simple_form'
+gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+gem 'bootstrap-sass-extras'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'acts_as_votable', github: 'ryanto/acts_as_votable'
+gem 'validates_formatting_of'
